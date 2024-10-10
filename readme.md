@@ -44,3 +44,8 @@ MongodbAtlas-> Cloud DB
 
 
 
+
+WHY MVC 
+    Readability,
+    Reuseability,
+    Easy to debug

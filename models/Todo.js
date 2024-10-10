@@ -6,7 +6,8 @@ const mongoose=require('mongoose');
 
 
 const todoschema=new mongoose.Schema({
-    title:{
+    title:
+    {
         type:String,
         required:true,
     },
