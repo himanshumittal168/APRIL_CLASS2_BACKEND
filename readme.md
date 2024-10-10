@@ -29,7 +29,7 @@ q3 What is mongoose  ->write in db, connect to db, update in db
 IMPORTANT
 <!-- MVC -->
 
-MODEL->Represent the structure of data,
+MODEL->Represent the structure of data,   (SCHEMA)
        Formate and constraint with which it is stored.
 
 Controller -> Controls the request of user and generated appropriate response, 
