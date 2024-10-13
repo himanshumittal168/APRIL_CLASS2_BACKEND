@@ -1,5 +1,7 @@
 const Todo=require("../models/Todo");
 
+
+// CREATE
 // 200? Status Code 
 exports.createTodo=async(req,resp)=>
 {
@@ -22,4 +24,9 @@ exports.createTodo=async(req,resp)=>
         })
     }
 }
+
+//  reading request
+//  doing action
+//    sending response
+
 

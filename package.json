@@ -1,14 +1,17 @@
 {
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "mongoose": "^8.7.1"
+    "mongoose": "^8.7.1",
+    "nodemon": "^3.1.7"
   },
   "name": "backend_2",
   "version": "1.0.0",
   "description": "Agenda-                  1. What is Db             2. What is MongoDb             3. What is mongoose                 3.1 Mongodb Compass                 3.2 MongoDB Shell             4. What is MVC             5. MongodbAtlas             6. Make a small Todo Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ashmita": "nodemon index"
   },
   "author": "",
   "license": "ISC"

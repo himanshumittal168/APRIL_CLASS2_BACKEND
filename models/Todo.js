@@ -11,7 +11,7 @@ const todoschema=new mongoose.Schema({
         type:String,
         required:true,
     },
-    desc:
+    desc:   // description
     {
         type:String,
         required:true

@@ -2,11 +2,10 @@
 
 const mongoose=require('mongoose');
 
-let url='mongodb+srv://himanshumittal168:OhNNAFyzbcIuvkZb@cluster0.samc3.mongodb.net/april_batch'
-
+require("dotenv").config();
 const dbConnet=()=>
 {
-    mongoose.connect(url)
+    mongoose.connect(process.env.url)
     .then(()=> console.log("CONNECTED TO Db"))
     .catch((err)=>{
         console.log("ISSUE IN CONNECTING");

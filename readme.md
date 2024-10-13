@@ -49,3 +49,36 @@ WHY MVC
     Readability,
     Reuseability,
     Easy to debug
+
+
+
+Date-13-Oct-2024
+MVC - MODEL VIEW CONTROLLER
+
+MODEL- Schema || Data formate || data constrains
+
+Controller- Control the request and take action
+
+View- Show Data as user need
+
+
+MONDODB
+Mongoose? - ODM Library Object data modelling
+
+
+
+Express ------------(MONGOOSE)-------------MONGODB
+
+Schema- type of data, constraint , required or not?
+
+Status Codes
+// Informational responses (100 – 199)
+// Successful responses (200 – 299)
+// Redirection messages (300 – 399)
+// Client error responses (400 – 499)  
+// Server error responses (500 – 599)
+
+    Agenda-> 1. Re- strucutre of code
+                    1.1 env
+            2. Write more controller CRUD  created read update delete(Todos)
+            3. params 
